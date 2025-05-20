@@ -144,4 +144,16 @@ public class Library implements ILibrary{
             AppLogger.info(getClass(),"Borrowed Books :"+ book.getBookDetails());
         }
     }
+    public void getAllPatrons() {
+        patronManager.getAllPatrons();
+    }
+    public void getPatronDetails(String email) {
+        patronManager.getPatronDetails(email);
+    }
+    public void getPatronCount() {
+        patronManager.getPatronCount();
+    }
+    public void getPatronBorrowedBooks(String email) {
+        patronManager.getPatronBorrowedBooks(email);
+    }
 }

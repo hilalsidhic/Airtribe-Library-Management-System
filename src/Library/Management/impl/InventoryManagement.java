@@ -18,14 +18,6 @@ public class InventoryManagement implements IInventoryManager {
         setBookCount(0);
     }
 
-    public Map<String, IBook> getBooks() {
-        return books;
-    }
-
-    public void setBooks(Map<String, IBook> books) {
-        this.books = books;
-    }
-
     public int getBookCount() {
         return bookCount;
     }
