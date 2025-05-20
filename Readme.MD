@@ -44,7 +44,7 @@ The system is divided into multiple layers and modules for separation of concern
 
 1. Clone the repository:
 
-git clone https://github.com/yourusername/library-management-system.git
+git clone https://github.com/hilalsidhic/Airtribe-Library-Management-System.git
 
 
 2. Navigate to the project directory.
