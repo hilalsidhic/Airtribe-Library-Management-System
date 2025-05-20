@@ -6,9 +6,9 @@ import Library.utils.AppLogger;
 import java.util.List;
 
 public class Book implements IBook {
+    private final String isbn;
     private String title;
     private String author;
-    private final String isbn;
     private Integer publicationYear;
     private boolean isBorrowed;
 
