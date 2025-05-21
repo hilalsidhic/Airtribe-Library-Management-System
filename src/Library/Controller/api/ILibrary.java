@@ -8,6 +8,10 @@ public interface ILibrary {
     void addPatron(String name, String email, String phoneNumber);
     void removePatron(String email);
     void updatePatron(String email, String newName, String newEmail);
+    void getPatronDetails(String email);
+    void getPatronBorrowedBooks(String email);
+    void getAllPatrons();
+    void getPatronCount();
 
     void borrowBook(String email, String bookIsbn);
     void returnBook(String email, String bookIsbn);
